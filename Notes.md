@@ -1,8 +1,17 @@
 # OpenCV-using-python
+
+# What is computer Computer Vision
+Computer Vision is a field of Artificial Intelligence (AI) and computer science that focuses on enabling computers to interpret, analyze, and understand visual information from the world, much like humans do. It involves teaching machines to process and make sense of images, videos, and other visual inputs to extract meaningful data or perform specific tasks.
+
+# Some common task performed:
+`Object identification and classification`
+`Object tracking`
+`Image restoration`
+`Video motion analysis`
+
 OpenCV, or **Open Source Computer Vision Library**, is a powerful open-source library designed for computer vision and machine learning tasks. Here are the basics of OpenCV:
 
 ## Overview
-
 - **Purpose**: OpenCV provides tools for processing images and videos to identify objects, faces, and even handwriting. It is widely used in various applications such as facial recognition, object detection, and image manipulation.
 
 - **Development**: Originally developed by Intel, OpenCV is now maintained by a community of developers under the OpenCV Foundation. It supports multiple programming languages, including Python, C++, and Java.
@@ -28,11 +37,4 @@ OpenCV, or **Open Source Computer Vision Library**, is a powerful open-source li
 - **Reading Images**: Use `cv2.imread()` to load an image.
 - **Displaying Images**: Use `cv2.imshow()` to display an image in a window.
 - **Saving Images**: Use `cv2.imwrite()` to save an image to disk.
-  
-Citations:
-[1] https://pyimagesearch.com/2018/07/19/opencv-tutorial-a-guide-to-learn-opencv/
-[2] https://www.youtube.com/watch?v=oXlwWbU8l2o
-[3] https://docs.opencv.org/3.4/d9/df8/tutorial_root.html
-[4] https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
-[5] https://www.javatpoint.com/opencv
-[6] https://www.geeksforgeeks.org/opencv-python-tutorial/
+
