@@ -38,3 +38,26 @@ OpenCV, or **Open Source Computer Vision Library**, is a powerful open-source li
 - **Displaying Images**: Use `cv2.imshow()` to display an image in a window.
 - **Saving Images**: Use `cv2.imwrite()` to save an image to disk.
 
+**Simple Code to read image**
+
+```
+import cv2
+
+# Load the image from file
+image_path = 'path_to_your_image.jpg'  # Replace with your image path
+image = cv2.imread(image_path)
+
+# Check if the image was loaded successfully
+if image is None:
+    print("Error: Could not load image.")
+else:
+    # Display the image in a window
+    cv2.imshow('Image', image)
+
+    # Wait for a key press indefinitely or for a specific amount of time (in milliseconds)
+    cv2.waitKey(0)  # 0 means wait indefinitely
+
+    # Close all OpenCV windows
+    cv2.destroyAllWindows()
+```
+
